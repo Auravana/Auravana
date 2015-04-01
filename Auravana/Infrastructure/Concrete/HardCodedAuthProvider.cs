@@ -16,7 +16,7 @@ namespace Auravana.Infrastructure.Concrete
             switch(username.ToLowerInvariant())
             {
                 case "captainbedpan":
-                case "travis":
+                case "travis": 
                 case "mutterbuttocks":
                     authenticated = true;
                     break;
