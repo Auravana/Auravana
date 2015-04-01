@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auravana", "Auravana\Auravana.csproj", "{3E6FB696-DE7B-44A2-860A-A891CAFAB737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auravana.Domain", "Auravana.Domain\Auravana.Domain.csproj", "{59A4C439-A135-4C98-BB25-8606C6D81825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auravana.UnitTests", "Auravana.UnitTests\Auravana.UnitTests.csproj", "{906FC0F4-4121-4F1D-8A23-6DFFB9DB8BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E6FB696-DE7B-44A2-860A-A891CAFAB737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6FB696-DE7B-44A2-860A-A891CAFAB737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6FB696-DE7B-44A2-860A-A891CAFAB737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6FB696-DE7B-44A2-860A-A891CAFAB737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A4C439-A135-4C98-BB25-8606C6D81825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A4C439-A135-4C98-BB25-8606C6D81825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A4C439-A135-4C98-BB25-8606C6D81825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A4C439-A135-4C98-BB25-8606C6D81825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906FC0F4-4121-4F1D-8A23-6DFFB9DB8BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906FC0F4-4121-4F1D-8A23-6DFFB9DB8BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906FC0F4-4121-4F1D-8A23-6DFFB9DB8BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906FC0F4-4121-4F1D-8A23-6DFFB9DB8BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

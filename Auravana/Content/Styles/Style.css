@@ -1,0 +1,72 @@
+﻿body {
+    background: black;
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#chat{
+    float: left;
+}
+
+#profile{
+    float: right;
+}
+
+#profile_details{
+    margin: -10px 20px 10px 20px;
+}
+
+#profile_details label{
+    width: 120px;
+    display: inline-block;
+}
+
+#profile_details img {
+    display: block;
+    margin: 5px auto;
+    border: 2px solid darkgray;
+    border-radius: 8px;
+}
+
+#profile_details span{
+    font-weight: bold;
+}
+
+.container {
+    background: gray;
+    margin: 5px;
+    border: 2px solid darkgray;
+    border-radius: 9px;
+    box-shadow: inset 3px 3px 12px 0px rgba(0,0,0,0.75);
+}
+
+#chat_entry{
+    margin-left: 20px;
+}
+
+.container h2 {    
+    margin: 5px 9px 9px 9px;
+}
+
+#discussion_border {
+    height: 80px;    
+    border: 1px solid gainsboro;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 9px;
+}
+
+#discussion{
+    height: 100%;
+    overflow:auto;
+}
+
+#discussion ul{
+    margin:0;
+    padding:0;
+}
+
+#discussion li{
+    margin:0 3px;
+}
