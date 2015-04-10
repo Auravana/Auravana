@@ -1,0 +1,136 @@
+﻿header h1{
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+#tableContainer{
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	border-spacing: 30px;
+}
+
+#tableRow1{
+	display: table-row;
+}
+
+.columns{
+	display: table-cell;
+	background-color: cornflowerblue;
+	height: 600px;
+	border: 3px solid darkblue;
+	border-radius: 10px;	
+	box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#selected {
+	width: 60%;	
+}
+
+.columnHeader{
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin: 0 8px;
+}
+
+#selected .selectedLine{
+	margin: 10px;
+	font-size: 1.2rem;
+	position: relative;	
+}
+
+#selected .remove{
+	position: absolute;
+	right: 0;
+	top: 2px;
+	border: 2px solid whitesmoke;
+	border-radius: 15px;
+	background-color: hsl(0, 100%, 30%);
+	padding: 6px 5px 0px 6px;
+	cursor: pointer;
+}
+
+#selected .remove:hover {
+	background-color: hsl(0, 100%, 50%);
+}
+
+#selected .name{
+	border: 2px solid whitesmoke;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: rgba(255,255,255,.3);
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#selected .value{
+	margin-left: 3px;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#options .optionLine{
+	border: 2px solid whitesmoke;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px;
+	font-size: 1.2rem;
+	color: whitesmoke;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#options .red{
+	background: red;
+}
+
+#options .red:hover {
+	color: red;
+	background-color: black;
+	border-color: red;
+}
+
+#options .orange{
+	background: orange;
+}
+
+#options .orange:hover {
+	color: orange;
+	background-color: black;
+	border-color: orange;
+}
+
+#options .blue{
+	background: blue;
+}
+
+#options .blue:hover {
+	color: blue;
+	background-color: black;
+	border-color: blue;
+}
+
+#options .green{
+	background: green;
+}
+
+#options .green:hover {
+	color: lime;
+	background-color: black;
+	border-color: lime;
+}
+
+#options .purple{
+	background: purple;
+}
+
+#options .purple:hover {
+	color: purple;
+	background-color: black;
+	border-color: purple;
+}
