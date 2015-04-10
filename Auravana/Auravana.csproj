@@ -182,8 +182,6 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
-    <None Include="Properties\PublishProfiles\auravana - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\auravana - Web Deploy.pubxml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Issue\Index.cshtml" />
     <None Include="Web.Debug.config">
@@ -195,6 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Auravana.Domain\Auravana.Domain.csproj">
