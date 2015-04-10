@@ -41,7 +41,7 @@
     box-shadow: inset 3px 3px 12px 0px rgba(0,0,0,0.75);
 }
 
-nav {
+nav.container {
     position: absolute;
     width: 150px;
     text-align: center;
