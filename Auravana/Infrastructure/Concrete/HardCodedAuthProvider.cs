@@ -18,6 +18,7 @@ namespace Auravana.Infrastructure.Concrete
                 case "captainbedpan":
                 case "travis":  
                 case "mutterbuttocks":
+                case "andrew":
                     authenticated = true;
                     break;
             }
