@@ -7,6 +7,9 @@ using System.Web.Security;
 
 namespace Auravana.Infrastructure.Concrete
 {
+    /*
+     * Test comment
+     */
     public class HardCodedAuthProvider : IAuthProvider
     {
         public bool Authenticate(string username, string password)
